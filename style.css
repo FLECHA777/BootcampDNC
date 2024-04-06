@@ -136,8 +136,7 @@ footer a:hover {
     color: #BABABA;
 }
 
-footer li a,
-p {
+footer li a,p {
     font-size: 15px;
     text-decoration: none;
 }
@@ -168,6 +167,7 @@ footer .line1 {
     #header {
         flex-direction: column;
         height: auto;
+        padding-bottom: 20px;
     }
 
     #menu {
@@ -210,4 +210,20 @@ footer .line1 {
     .form-group{
         font-size: 14px;
     }
+
+    /* ajustando o footer */
+
+    footer{
+        justify-items: none;
+    }
+
+    footer .line1{
+        flex-direction: column;
+    }
+
+    footer .endereco{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
 }
