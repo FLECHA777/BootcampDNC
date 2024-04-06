@@ -210,7 +210,9 @@ footer .line1 {
     .form-group{
         font-size: 14px;
     }
-
+    .form-group .in{
+        font-size: 12px;
+    }
     /* ajustando o footer */
 
     footer{
